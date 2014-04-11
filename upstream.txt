@@ -1,1 +1,9 @@
-Explain what the "upstream" remote is usually used for, in your own words
+Upstream Remote
+
+The 'upstream' remote, in its most basic form  refers to a repository stored
+on a server. The term is often used to indicate the main online repository. 
+For example, a user may have forked a repository into their github and then 
+cloned to their local machine. They would do  general development in their 
+own repo, and could periodically merge to the main upstream remote. This 
+would help to keep their work clean and secure, without making changes to the
+main project until all changes have been agreed.
