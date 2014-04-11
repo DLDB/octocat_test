@@ -1,1 +1,15 @@
-Explain what git clone does, in your own words
+Git Clone
+
+The command "git clone (repo)" creates a complete local copy of a repository.
+
+When used from the command line, it will create a folder in your pwd
+with the same name as the repo you are cloning. The contents of the repo
+will be placed inside that folder.
+
+In addition to this, the folder will be an initialised git repository, and 
+the default branch (usually "master") and remote name "origin" will be added.
+The remote will be set up as the URL you cloned from.
+
+
+
+
