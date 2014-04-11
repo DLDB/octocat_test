@@ -1,1 +1,17 @@
-Explain what a branch is, in your own words
+Branch
+
+A branch can be imagined as a separate timeline. When git is initialised in a
+directory, commits are made to the default branch "master", which can be 
+considered to be the main time line of the project. It is possible to create
+a new branch where all your work and all of your commits will have no bearing
+ on the master branch. When you are finished working on your current timeline,
+ you can merge your branch to another branch or back to the master. This is 
+ useful if you go back in time to the 1920's and want to bring back a lovely
+ new hat. If only git were invented back then.
+ 
+ Merging is the process by which two branches are combined - there can be 
+ some friction at this stage as the two alternate realities may not agree 
+ with each other 100%. Therefore you may encounter conflicts which will need 
+ to be resolved before the next commit.
+
+
